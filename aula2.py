@@ -1,2 +1,5 @@
-# ei!
-print('python')
+nome = input("Qual o seu nome? ")
+altura = float(input("Qual a sua altura? (Em metros) "))
+peso = int(input("Qual o seu peso? (Apenas numeros) "))
+imc = peso / (altura * 2)
+print("O imc de", nome,"é: \n", imc)
